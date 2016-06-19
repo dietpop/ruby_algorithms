@@ -10,4 +10,4 @@ Here are HackerRank's AWS/EC2 configurations by language: https://www.hackerrank
 
 This is an example of how I ran the Insertion Sort in Ruby.
 
-[[https://github.com/dietpop/ruby_algorithms/blob/master/benchmarks/insertion_sort_ex.png|alt=InsertionSortRuby]]
+![insertion sort in ruby benchmarked on Hackerrank.com](https://github.com/dietpop/ruby_algorithms/blob/master/benchmarks/insertion_sort_ex.png)
