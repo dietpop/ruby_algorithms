@@ -2,4 +2,12 @@
 
 Ruby has extremely forgiving **magic** where you don't have to declare variable types nor size.  This makes Ruby less efficient for algorithms.
 
-We need to measure the actual performance of these Ruby algorithms against C, C++, and Java.  I'll post the comparison times when I have a good test setup. In the meantime, here's HackerRank's cutoff times per language: https://www.hackerrank.com/environment
+Let's measure the actual performance of these Ruby algorithms against C, C++, and Java.
+
+My test setup utilizes the HackerRank.com engine which uploads algorithms written in 38+ different languages. Macbooks are not suitable for benchmarking because the runtimes vary greatly and are 28,000 times longer than HackerRank's engine.
+
+Here are HackerRank's AWS/EC2 configurations by language: https://www.hackerrank.com/environment
+
+This is an example of how I ran the Insertion Sort in Ruby.
+
+[[https://github.com/dietpop/ruby_algorithms/blob/master/benchmarks/insertion_sort_ex.png|alt=InsertionSortRuby]]
