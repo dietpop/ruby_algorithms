@@ -4,7 +4,7 @@ Ruby has extremely forgiving **magic** where you don't have to declare variable 
 
 Let's measure the actual performance of these Ruby algorithms against C, C++, and Java.  This is a work in progess and currently Insertion Sort in Ruby runtimes are measured.  See below.
 
-My test setup utilizes the HackerRank.com engine which uploads algorithms written in 38+ different languages. Macbooks are not suitable for benchmarking because the runtimes vary greatly and are 28,000 times longer than HackerRank's engine.
+My test setup utilizes the HackerRank.com engine which uploads algorithms written in 38+ different languages. Macbooks are not suitable for benchmarking because the runtimes vary greatly from iteration to iteration.
 
 Here are HackerRank's AWS/EC2 configurations by language: https://www.hackerrank.com/environment
 
